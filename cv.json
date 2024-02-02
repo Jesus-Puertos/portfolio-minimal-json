@@ -1,0 +1,206 @@
+{
+  "basics": {
+    "name": "Luz Arely Cueyactle Ajactle",
+    "label": "Técnica Superior Universitaria en Gastronomía",
+    "image": "/me.webp",
+    "email": "cueyactleluzarely@gmail.com",
+    "phone": "+52 272 113-1430",
+    "url": "",
+    "summary": "Incrementar los conocimientos y habilidades en el área de la gastronomía, para poder desarrollar y aplicar técnicas culinarias en la elaboración de platillos, así como en la administración de establecimientos de alimentos y bebidas.",
+    "location": {
+      "address": "",
+      "postalCode": "95060",
+      "city": "Los Reyes",
+      "countryCode": "MX",
+      "region": "Veracruz"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "Luz Arely Cueyactle Ajactle",
+        "url": "https://www.linkedin.com/in/luz-arely-cueyactle-ajactle-0b3b3b1b3/"
+      },
+      {
+        "network": "X",
+        "username": "Luz Arely Cueyactle Ajactle",
+        "url": "https://www.x.com/in/luz-arely-cueyactle-ajactle-0b3b3b1b3/"
+      },
+      {
+        "network": "GitHub",
+        "username": "Luz Arely Cueyactle Ajactle",
+        "url": ""
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Pastelería (Paty)",
+      "position": "Panadera",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2023-09-01",
+      "endDate": null,
+      "summary": "Producción y recepción de pedidos de pasteles, panes, galletas, etc.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Restaurante y Cafetería \"Kcafe Mexico\"",
+      "position": "Cocinera",
+      "url": "https://twitch.tv/midudev",
+      "startDate": "2023-05-01",
+      "endDate": "2023-08-01",
+      "summary": "Recepción de clientes, manejo de conmutador, asistencia a mesa de entradas, organización del libro de entrada y salida, mantenimiento de archivo.",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Organization",
+    "position": "Volunteer",
+    "url": "https://organization.com/",
+    "startDate": "2012-01-01",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Unniversidad UTCV (Universidad Tecnológica del centro de Veracruz)",
+    "url": "http://www.utcv.edu.mx/",
+    "area": "Lic. Gastronomia",
+    "studyType": "Bachelor",
+    "startDate": "2003-01-01",
+    "endDate": null,
+    "score": "9.5",
+    "courses": [
+      "Cocina Mexicana"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "Cocina",
+      "level": "Master",
+      "keywords": [
+        "Gastronomía", "Cocina Internacional"
+      ]
+    },
+    {
+      "name": "Repostería",
+      "level": "Master",
+      "keywords": [
+        "Gastronomía", "Dulces", "Pasteles"
+      ]
+    },
+    {
+      "name": "Panadería",
+      "level": "Master",
+      "keywords": [
+        "Gastronomía", "Pan", "Horneado"
+      ]
+    },
+    {
+      "name": "Cocina Vegana",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "Vegano", "Saludable"
+      ]
+    },
+    {
+      "name": "Cocina Mediterránea",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "Mediterráneo", "Saludable"
+      ]
+    },
+    {
+      "name": "Cocina Asiática",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "Asia", "Internacional"
+      ]
+    },
+    {
+      "name": "Cocina Mexicana",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "México", "Internacional"
+      ]
+    },
+    {
+      "name": "Cocina Italiana",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "Italia", "Internacional"
+      ]
+    },
+    {
+      "name": "Cocina Francesa",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "Francia", "Internacional"
+      ]
+    },
+    {
+      "name": "Cocina Española",
+      "level": "Avanzado",
+      "keywords": [
+        "Gastronomía", "España", "Internacional"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Advanced"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "La rome",
+      "isActive": true,
+      "description": "Proyecto para un restaurante de comida italiana.",
+      "highlights": [
+        "Creación de menú",
+        "En desarrollo"
+      ],
+      "url": "https://mars.codes"
+    }
+  ]
+}
