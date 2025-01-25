@@ -7,7 +7,7 @@ import { education } from "@cv";
 <Section title="Educación">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area, courses }) => {
+      education.map(({ institution, startDate, endDate,description ,area, courses }) => {
         const startYear = new Date(startDate).getFullYear();
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Presente";
@@ -23,7 +23,9 @@ import { education } from "@cv";
 
                 <time>{years}</time>
               </header>
-
+              <p>
+                {description}
+              </p>
               <footer>
                 <p>{area}</p>
                 {courses.map((courses) => {
@@ -70,6 +72,12 @@ import { education } from "@cv";
     font-size: 0.6rem;
     font-weight: 500;
     padding: 0.2rem 0.6rem;
+    margin-right: 0.5rem;
+  }
+
+  footer p {
+    margin-top: 0.5rem;
+    font-weight: bolder;
   }
 
   @media (width <= 700px) {
@@ -77,4 +85,6 @@ import { education } from "@cv";
       text-align: right;
     }
   }
+
+  
 </style>

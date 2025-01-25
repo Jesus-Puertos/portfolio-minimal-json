@@ -1,207 +1,172 @@
 {
   "basics": {
-    "name": "Luz Arely Cueyactle Ajactle",
-    "label": "Técnica Superior Universitaria en Gastronomía",
-    "image": "/me.webp",
-    "email": "cueyactleluzarely@gmail.com",
-    "phone": "+52 272 113-1430",
-    "url": "",
-    "summary": "Incrementar los conocimientos y habilidades en el área de la gastronomía, para poder desarrollar y aplicar técnicas culinarias en la elaboración de platillos, así como en la administración de establecimientos de alimentos y bebidas.",
+    "name": "Jes\u00fas Alberto Rodr\u00edguez Puertos",
+    "label": "Desarrollador Web FullStack Jr.",
+    "image": "/me.png",
+    "email": "226w0496@zongolica.tecnm.mx",
+    "phone": "+52 272 266-2474",
+    "url": "https://jesus-puertosdev.netlify.app/",
+    "summary": "Desarrollador Web FullStack Jr. con experiencia en tecnologías como React, Astro y Tailwind CSS. Ganador del primer lugar en HackaTECNM 2024 a nivel regional y delegado municipal en Movimiento Ciudadano. Apasionado por crear soluciones tecnológicas prácticas que combinan diseño innovador y funcionalidad.",
     "location": {
       "address": "",
       "postalCode": "95060",
-      "city": "Los Reyes",
+      "city": "Tlilapan",
       "countryCode": "MX",
       "region": "Veracruz"
     },
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Luz Arely Cueyactle Ajactle",
-        "url": "https://www.linkedin.com/in/luz-arely-cueyactle-ajactle-0b3b3b1b3/"
-      },
-      {
-        "network": "X",
-        "username": "Luz Arely Cueyactle Ajactle",
-        "url": "https://www.x.com/in/luz-arely-cueyactle-ajactle-0b3b3b1b3/"
+        "username": "Jes\u00fas Rodr\u00edguez",
+        "url": "https://www.linkedin.com/in/jesús-puertos-mx/"
       },
       {
         "network": "GitHub",
-        "username": "Luz Arely Cueyactle Ajactle",
-        "url": ""
+        "username": "jesuspuertos",
+        "url": "https://github.com/jesus-puertos"
       }
     ]
   },
   "work": [
     {
-      "name": "Pastelería (Paty)",
-      "position": "Panadera",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2023-09-01",
+      "name": "Movimiento Ciudadano",
+      "position": "Delegado Municipal",
+      "url": "",
+      "startDate": "2024-05-01",
       "endDate": null,
-      "summary": "Producción y recepción de pedidos de pasteles, panes, galletas, etc.",
+      "summary": "Trabajé activamente en comunidades, promoviendo las propuestas del partido mediante la distribución de propaganda y la organización de eventos públicos en las elecciones pasadas. Además, participé en cursos de formación política para fortalecer mis habilidades de liderazgo y comunicación. Desde mi nombramiento como delegado, he trabajado en la afiliación de nuevos miembros, impulsando la representación del partido en la región, y en la creación de un proyecto municipal enfocado en fomentar el desarrollo local.",
       "highlights": [
-        ""
+        "Afiliaci\u00f3n de nuevos miembros al partido.",
+        "Desarrollo de un proyecto municipal enfocado en conectar agencias de turismo locales (BeelTraveler).",
+        "Participaci\u00f3n en eventos comunitarios y cursos de formaci\u00f3n pol\u00edtica."
       ]
     },
     {
-      "name": "Restaurante y Cafetería \"Kcafe Mexico\"",
-      "position": "Cocinera",
-      "url": "https://twitch.tv/midudev",
-      "startDate": "2023-05-01",
-      "endDate": "2023-08-01",
-      "summary": "Recepción de clientes, manejo de conmutador, asistencia a mesa de entradas, organización del libro de entrada y salida, mantenimiento de archivo.",
+      "name": "InnovaTECNM 2024",
+      "position": "Desarrollador AR",
+      "url": "https://volvoar.dev",
+      "startDate": "2024-11-18",
+      "endDate": "2024-11-22",
+      "summary": "Participé en el desarrollo de una aplicación innovadora de realidad aumentada para manipular modelos 3D en un entorno interactivo, diseñada específicamente para satisfacer las necesidades de Volvo Group S.A de C.V. Este proyecto destacó por su enfoque en la experiencia del usuario y la integración de tecnologías avanzadas de AR.",
       "highlights": [
-        ""
+        "Diseño e implementación de un sistema de manipulación 3D que permite la visualización, rotación y expansión de modelos en tiempo real.",
+        "Desarrollo de herramientas para la medición precisa de distancias y dimensiones dentro de entornos inmersivos.",
+        "Colaboración efectiva con un equipo multidisciplinario de desarrolladores, diseñadores y representantes de la industria automotriz.",
+        "Optimización del rendimiento de la aplicación para garantizar una experiencia fluida y sin interrupciones en dispositivos modernos.",
+        "Presentación del proyecto en la fase nacional de InnovaTECNM 2024, destacando por su creatividad y aplicabilidad en el sector automotriz.",
+        "Resolución de problemas técnicos complejos relacionados con la interacción entre modelos 3D y el entorno AR."
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Unniversidad UTCV (Universidad Tecnológica del centro de Veracruz)",
-    "url": "http://www.utcv.edu.mx/",
-    "area": "Lic. Gastronomia",
-    "studyType": "Bachelor",
-    "startDate": "2003-01-01",
-    "endDate": null,
-    "score": "9.5",
-    "courses": [
-      "Cocina Mexicana"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "volunteer": [],
+  "education": [
+    {
+      "institution": "Tecnol\u00f3gico Nacional de M\u00e9xico, Campus Zongolica",
+      "url": "http://www.tecnm.mx/",
+      "area": "Ingenier\u00eda en Sistemas Computacionales",
+      "description": "Estudiante de Ingeniería en Sistemas Computacionales. He desarrollado soluciones como una plataforma integral para actividades complementarias y he participado en competencias tecnológicas, obteniendo reconocimientos destacados como el primer lugar en HackaTECNM 2024.",
+      "studyType": "Bachelor",
+      "startDate": "2020-08-01",
+      "endDate": null,
+      "score": "9.3",
+      "courses": [
+        "Desarrollo Web con React",
+        "Metodolog\u00edas \u00c1giles (SCRUM)"
+      ]
+    },
+    {
+      "institution": "Centro Bachillerato Tecnol\u00f3gico Agropecuario No. 280",
+      "url": "http://cbta280.edu.mx/",
+      "area": "T\u00e9cnico en Ofim\u00e1tica",
+      "description": "Durante mi estancia en el Centro Bachillerato Tecnológico Agropecuario, adquirí conocimientos técnicos en ofimática y mantenimiento de hardware.",
+      "studyType": "High School",
+      "startDate": "2016-08-01",
+      "endDate": "2019-06-01",
+      "score": "9.0",
+      "courses": ["Mantenimiento de hardware", "Programaci\u00f3n b\u00e1sica"]
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Cocina",
-      "level": "Master",
-      "keywords": [
-        "Gastronomía", "Cocina Internacional"
-      ]
+      "name": "HTML",
+      "level": "Avanzado"
     },
     {
-      "name": "Repostería",
-      "level": "Master",
-      "keywords": [
-        "Gastronomía", "Dulces", "Pasteles"
-      ]
+      "name": "CSS",
+      "level": "Avanzado"
     },
     {
-      "name": "Panadería",
-      "level": "Master",
-      "keywords": [
-        "Gastronomía", "Pan", "Horneado"
-      ]
+      "name": "JavaScript",
+      "level": "Avanzado"
     },
     {
-      "name": "Cocina Vegana",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "Vegano", "Saludable"
-      ]
+      "name": "TypeScript",
+      "level": "Intermedio"
     },
     {
-      "name": "Cocina Mediterránea",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "Mediterráneo", "Saludable"
-      ]
+      "name": "React",
+      "level": "Avanzado"
     },
     {
-      "name": "Cocina Asiática",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "Asia", "Internacional"
-      ]
+      "name": "Astro",
+      "level": "Avanzado"
     },
     {
-      "name": "Cocina Mexicana",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "México", "Internacional"
-      ]
+      "name": "Node.js",
+      "level": "Intermedio"
     },
     {
-      "name": "Cocina Italiana",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "Italia", "Internacional"
-      ]
+      "name": "Tailwind CSS",
+      "level": "Avanzado"
     },
     {
-      "name": "Cocina Francesa",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "Francia", "Internacional"
-      ]
+      "name": "MySQL",
+      "level": "Intermedio"
     },
     {
-      "name": "Cocina Española",
-      "level": "Avanzado",
-      "keywords": [
-        "Gastronomía", "España", "Internacional"
-      ]
+      "name": "Git",
+      "level": "Avanzado"
+    },
+    {
+      "name": "GitHub",
+      "level": "Avanzado"
     }
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Espa\u00f1ol",
+      "fluency": "Nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Ingl\u00e9s",
+      "fluency": "Intermedio Avanzado"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "La rome",
+      "name": "BeelTraveler",
       "isActive": true,
-      "description": "Proyecto para un restaurante de comida italiana.",
+      "description": "Plataforma digital para conectar agencias de turismo con clientes y gu\u00edas locales, promoviendo la econom\u00eda regional.",
       "highlights": [
-        "Creación de menú",
-        "En desarrollo"
+        "Dise\u00f1ada con Astro, React y MySQL.",
+        "Ganadora del primer lugar en HackaTECNM 2024."
       ],
-      "url": "https://mars.codes",
-      "github": ""
+      "url": "https://beeltraveler-repo-tecnm.vercel.app/"
+    },
+    {
+      "name": "Sistema de Gestión de Complementarias",
+      "isActive": true,
+      "description": "Plataforma integral para el registro y consulta de actividades complementarias de los estudiantes, incluyendo horarios, documentación, y progreso académico.",
+      "highlights": [
+        "Implementó medidas avanzadas de seguridad en formularios.",
+        "Facilitó la consulta y gestión de horarios y cargas académicas en tiempo real."
+      ],
+      "github": "https://github.com/Jesus-Puertos/complementarias-proyecto.git"
     }
   ]
 }
