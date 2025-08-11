@@ -122,7 +122,8 @@
         "Desarrollada con Astro, React y MySQL.",
         "Ganadora del 1er lugar en HackaTECNM 2024."
       ],
-      "url": "https://beeltraveler-repo-tecnm.vercel.app/"
+      "url": "https://beeltraveler-repo-tecnm.vercel.app/",
+      "isActive": true
     },
     {
       "name": "Sistema de Gestión de Complementarias",
@@ -131,7 +132,9 @@
         "Seguridad avanzada en formularios.",
         "Gestión de horarios y cargas académicas en tiempo real."
       ],
-      "github": "https://github.com/Jesus-Puertos/complementarias-proyecto.git"
+      "github": "https://github.com/Jesus-Puertos/complementarias-proyecto.git",
+            "isActive": true
+
     },
     {
       "name": "Plataforma de Preservación Cultural",
@@ -139,7 +142,9 @@
       "highlights": [
         "Validación y control de calidad de la información aportada.",
         "Integración de herramientas multimedia y mapas interactivos."
-      ]
+      ],
+      "isActive": true
+
     }
   ]
 }
