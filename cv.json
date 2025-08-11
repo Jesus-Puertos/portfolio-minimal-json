@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Jes\u00fas Alberto Rodr\u00edguez Puertos",
-    "label": "Desarrollador Web FullStack Jr.",
-    "image": "/me.png",
+    "name": "Jesús Alberto Rodríguez Puertos",
+    "label": "Desarrollador Web FullStack | Innovación Tecnológica",
     "email": "226w0496@zongolica.tecnm.mx",
-    "phone": "+52 272 266-2474",
+    "image": "/me.webp",
+    "phone": "+52 272 441 0819",
+    "whatsapp": "+52 272 266 2474",
     "url": "https://jesus-puertosdev.netlify.app/",
-    "summary": "Desarrollador Web FullStack Jr. con experiencia en tecnologías como React, Astro y Tailwind CSS. Ganador del primer lugar en HackaTECNM 2024 a nivel regional y delegado municipal en Movimiento Ciudadano. Apasionado por crear soluciones tecnológicas prácticas que combinan diseño innovador y funcionalidad.",
+    "summary": "Desarrollador web FullStack con experiencia en React, Astro, Tailwind CSS y Node.js. Ganador del 1er lugar en HackaTECNM 2024 (Región 6) y acreditado a la fase regional InnovaTecNM 2025. Apasionado por crear soluciones tecnológicas escalables, eficientes y visualmente atractivas, integrando diseño funcional con experiencia de usuario optimizada.",
     "location": {
-      "address": "",
-      "postalCode": "95060",
+      "postalCode": "94860",
       "city": "Tlilapan",
       "countryCode": "MX",
       "region": "Veracruz"
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Jes\u00fas Rodr\u00edguez",
+        "username": "Jesús Rodríguez",
         "url": "https://www.linkedin.com/in/jesús-puertos-mx/"
       },
       {
@@ -29,131 +29,117 @@
   },
   "work": [
     {
-      "name": "InnovaTECNM 2024",
+      "name": "InnovaTECNM Nacional 2024",
       "position": "Desarrollador AR",
-      "url": "https://volvoar.dev",
       "startDate": "2024-11-18",
       "endDate": "2024-11-22",
-      "summary": "Participé en el desarrollo de una aplicación innovadora de realidad aumentada para manipular modelos 3D en un entorno interactivo, diseñada específicamente para satisfacer las necesidades de Volvo Group S.A de C.V. Este proyecto destacó por su enfoque en la experiencia del usuario y la integración de tecnologías avanzadas de AR.",
+      "summary": "Desarrollo de aplicación de realidad aumentada para Volvo Group S.A. de C.V., con manipulación de modelos 3D en entornos interactivos y herramientas de medición precisas.",
       "highlights": [
-        "Diseño e implementación de un sistema de manipulación 3D que permite la visualización, rotación y expansión de modelos en tiempo real.",
-        "Desarrollo de herramientas para la medición precisa de distancias y dimensiones dentro de entornos inmersivos.",
-        "Colaboración efectiva con un equipo multidisciplinario de desarrolladores, diseñadores y representantes de la industria automotriz.",
-        "Optimización del rendimiento de la aplicación para garantizar una experiencia fluida y sin interrupciones en dispositivos modernos.",
-        "Presentación del proyecto en la fase nacional de InnovaTECNM 2024, destacando por su creatividad y aplicabilidad en el sector automotriz.",
-        "Resolución de problemas técnicos complejos relacionados con la interacción entre modelos 3D y el entorno AR."
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "Tecnol\u00f3gico Nacional de M\u00e9xico, Campus Zongolica",
-      "url": "http://www.tecnm.mx/",
-      "area": "Ingenier\u00eda en Sistemas Computacionales",
-      "description": "Estudiante de Ingeniería en Sistemas Computacionales. He desarrollado soluciones como una plataforma integral para actividades complementarias y he participado en competencias tecnológicas, obteniendo reconocimientos destacados como el primer lugar en HackaTECNM 2024.",
-      "studyType": "Bachelor",
-      "startDate": "2020-08-01",
-      "endDate": null,
-      "score": "9.3",
-      "courses": [
-        "Desarrollo Web con React",
-        "Metodolog\u00edas \u00c1giles (SCRUM)"
+        "Implementación de manipulación 3D (rotación, expansión, zoom) en tiempo real.",
+        "Optimización de UI/UX para experiencias inmersivas fluidas.",
+        "Colaboración con equipo multidisciplinario en el sector automotriz.",
+        "Resolución de problemas complejos en la interacción modelo-entorno."
       ]
     },
     {
-      "institution": "Centro Bachillerato Tecnol\u00f3gico Agropecuario No. 280",
-      "url": "http://cbta280.edu.mx/",
-      "area": "T\u00e9cnico en Ofim\u00e1tica",
-      "description": "Durante mi estancia en el Centro Bachillerato Tecnológico Agropecuario, adquirí conocimientos técnicos en ofimática y mantenimiento de hardware.",
+      "name": "Desarrollo Web Freelance",
+      "position": "Desarrollador Web",
+      "startDate": "2023-04-01",
+      "endDate": null,
+      "summary": "Diseño y desarrollo de sitios web responsive para pequeñas empresas y proyectos personalizados con enfoque en optimización UX/UI.",
+      "highlights": [
+        "Implementación de plataformas e-commerce con pasarelas de pago seguras.",
+        "Desarrollo de sistemas de gestión con React y Tailwind CSS.",
+        "Gestión integral de proyectos, desde diseño hasta despliegue."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Tecnológico Nacional de México, Campus Zongolica",
+      "area": "Ingeniería en Sistemas Computacionales",
+      "studyType": "Bachelor",
+      "startDate": "2022-08-01",
+      "endDate": null,
+      "score": "9.3",
+      "description": "Proyectos destacados en IoT, gestión académica y visualización de datos. Participación en HackaTECNM (1er lugar regional) e InnovaTecNM 2025 (fase regional).",
+      "courses": [
+        "Desarrollo Web con React",
+        "Metodologías Ágiles (SCRUM)"
+      ]
+    },
+    {
+      "institution": "Udemy",
+      "area": "Desarrollo Web",
+      "studyType": "Online",
+      "startDate": "2022-01-01",
+      "endDate": null,
+      "courses": [
+        "React - La Guía Completa (Hooks, Router, Redux)",
+        "Astro: The Complete Guide",
+        "Tailwind CSS - Utility-First CSS Framework",
+        "Rust: The Complete Guide",
+        "Next.js - The Complete Guide"
+      ]
+    },
+    {
+      "institution": "Centro Bachillerato Tecnológico Agropecuario No. 280",
+      "area": "Técnico en Ofimática",
       "studyType": "High School",
       "startDate": "2016-08-01",
       "endDate": "2019-06-01",
       "score": "9.0",
-      "courses": ["Mantenimiento de hardware", "Programaci\u00f3n b\u00e1sica"]
+      "courses": [
+        "Mantenimiento de hardware",
+        "Programación básica"
+      ]
     }
   ],
-  "awards": [],
-  "certificates": [],
-  "publications": [],
   "skills": [
-    {
-      "name": "HTML",
-      "level": "Avanzado"
-    },
-    {
-      "name": "CSS",
-      "level": "Avanzado"
-    },
-    {
-      "name": "JavaScript",
-      "level": "Avanzado"
-    },
-    {
-      "name": "TypeScript",
-      "level": "Intermedio"
-    },
-    {
-      "name": "React",
-      "level": "Avanzado"
-    },
-    {
-      "name": "Astro",
-      "level": "Avanzado"
-    },
-    {
-      "name": "Node.js",
-      "level": "Intermedio"
-    },
-    {
-      "name": "Tailwind CSS",
-      "level": "Avanzado"
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermedio"
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado"
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado"
-    }
+    { "name": "HTML", "level": "Avanzado" },
+    { "name": "CSS", "level": "Avanzado" },
+    { "name": "JavaScript", "level": "Avanzado" },
+    { "name": "TypeScript", "level": "Intermedio" },
+    { "name": "Rust", "level": "Intermedio" },
+    { "name": "React", "level": "Avanzado" },
+    { "name": "Astro", "level": "Avanzado" },
+    { "name": "Node.js", "level": "Intermedio" },
+    { "name": "Tailwind CSS", "level": "Avanzado" },
+    { "name": "MySQL", "level": "Intermedio" },
+    { "name": "Git", "level": "Avanzado" },
+    { "name": "GitHub", "level": "Avanzado" }
+    
   ],
   "languages": [
-    {
-      "language": "Espa\u00f1ol",
-      "fluency": "Nativo"
-    },
-    {
-      "language": "Ingl\u00e9s",
-      "fluency": "Intermedio Avanzado"
-    }
+    { "language": "Español", "fluency": "Nativo" },
+    { "language": "Inglés", "fluency": "Intermedio Avanzado" }
   ],
-  "interests": [],
-  "references": [],
   "projects": [
     {
       "name": "BeelTraveler",
-      "isActive": true,
-      "description": "Plataforma digital para conectar agencias de turismo con clientes y gu\u00edas locales, promoviendo la econom\u00eda regional.",
+      "description": "Plataforma digital para conectar agencias de turismo con clientes y guías locales, impulsando la economía regional.",
       "highlights": [
-        "Dise\u00f1ada con Astro, React y MySQL.",
-        "Ganadora del primer lugar en HackaTECNM 2024."
+        "Desarrollada con Astro, React y MySQL.",
+        "Ganadora del 1er lugar en HackaTECNM 2024."
       ],
       "url": "https://beeltraveler-repo-tecnm.vercel.app/"
     },
     {
       "name": "Sistema de Gestión de Complementarias",
-      "isActive": true,
-      "description": "Plataforma integral para el registro y consulta de actividades complementarias de los estudiantes, incluyendo horarios, documentación, y progreso académico.",
+      "description": "Plataforma integral para registro y consulta de actividades complementarias de estudiantes.",
       "highlights": [
-        "Implementó medidas avanzadas de seguridad en formularios.",
-        "Facilitó la consulta y gestión de horarios y cargas académicas en tiempo real."
+        "Seguridad avanzada en formularios.",
+        "Gestión de horarios y cargas académicas en tiempo real."
       ],
       "github": "https://github.com/Jesus-Puertos/complementarias-proyecto.git"
+    },
+    {
+      "name": "Plataforma de Preservación Cultural",
+      "description": "Enciclopedia multimedia con geolocalización e IA para registrar y difundir patrimonio cultural.",
+      "highlights": [
+        "Validación y control de calidad de la información aportada.",
+        "Integración de herramientas multimedia y mapas interactivos."
+      ]
     }
   ]
 }
