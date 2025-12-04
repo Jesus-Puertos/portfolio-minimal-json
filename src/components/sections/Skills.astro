@@ -1,33 +1,90 @@
 ---
 import Section from "@/components/Section.astro";
-
 import { skills } from "@cv";
+
+import {
+  Code,
+  FileCode,
+  Terminal,
+  Blocks,
+  Database,
+  GitBranch,
+  Github,
+  Palette,
+  Boxes
+} from "@lucide/astro";
+
+const icons = {
+  HTML: FileCode,
+  CSS: Palette,
+  JavaScript: Code,
+  TypeScript: Code,
+  React: Blocks,
+  Astro: Boxes,
+  "Node.js": Terminal,
+  MySQL: Database,
+  Git: GitBranch,
+  GitHub: Github
+};
+
+const colors = {
+  HTML: "#E44D26",
+  CSS: "#1572B6",
+  JavaScript: "#F7DF1E",
+  TypeScript: "#3178C6",
+  React: "#61DAFB",
+  Astro: "#FF5D01",
+  "Node.js": "#3C873A",
+  MySQL: "#00618A",
+  Git: "#F05032",
+  GitHub: "#24292E"
+};
 ---
 
 <Section title="Habilidades">
-  <ul>
+  <ul class="skills">
     {
-      skills.map(({ name }) => (
-        <li>
-          <span>{name}</span>
-        </li>
-      ))
+      skills.map(({ name }) => {
+        const Icon = icons[name as keyof typeof icons] || Code;
+        const color = colors[name as keyof typeof colors] || "#555";
+
+        return (
+          <li class="badge" style={`border-color:${color}20;`}>
+            <Icon size="16" color={color} />
+            <span style={`color:${color}`}>{name}</span>
+          </li>
+        );
+      })
     }
   </ul>
 </Section>
 
 <style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
+  .skills {
+    display: flex;
     flex-wrap: wrap;
+    gap: 0.7rem;
+    padding: 0;
+    list-style: none;
   }
 
-  li {
-    background-color: #eee;
-    padding: 0.2rem 0.6rem;
-    border-radius: 4px;
-    color: black;
-    font-weight: 500;
+  .badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: white;
+    border: 2px solid;
+    padding: 0.45rem 0.9rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.25s ease;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.04);
+  }
+
+  .badge:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgb(0 0 0 / 0.08);
+    background: #fafafa;
   }
 </style>

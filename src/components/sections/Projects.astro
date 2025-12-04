@@ -1,124 +1,158 @@
 ---
-import GitHub from "@/icons/Github.astro";
 import Section from "../Section.astro";
-
 import { projects } from "@cv";
+
+import { ExternalLink, Github, FolderGit } from "@lucide/astro";
 ---
 
 <Section title="Proyectos">
-  <ul>
+  <ul class="projects-grid">
     {
-      projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
-          return (
-            <li>
-              <article>
-                <header>
-                  <h3>
-                    <a href={url} title={`Ver el proyecto ${name}`}>
-                      {name}
-                    </a>
-                    {isActive && <span>•</span>}
-                    {github && (
-                      <a
-                        class="github-code-link"
-                        href={github}
-                        target="_blank"
-                        title={`Ver código fuente del proyecto ${name}`}
-                      >
-                        <GitHub />
-                      </a>
-                    )}
-                  </h3>
-                  <p>{description}</p>
-                </header>
-                <footer>
-                  {highlights.map((highlight) => {
-                    return <span>{highlight}</span>;
-                  })}
-                </footer>
-              </article>
-            </li>
-          );
-        }
-      )
+      projects.map(({ url, description, highlights, name, isActive, github }) => (
+        <li class="project-card">
+          <article>
+            <header class="title-row">
+              <div class="title-group">
+                <FolderGit size="20" color="#444" />
+                <h3>
+                  <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                    {name}
+                  </a>
+                  {isActive && <span class="active-dot">•</span>}
+                </h3>
+              </div>
+
+              <div class="actions">
+                {url && (
+                  <a href={url} target="_blank" title="Ver demo">
+                    <ExternalLink size="18" />
+                  </a>
+                )}
+                {github && (
+                  <a href={github} target="_blank" title="Ver código en GitHub">
+                    <Github size="18" />
+                  </a>
+                )}
+              </div>
+            </header>
+
+            <p class="description">{description}</p>
+
+            <footer class="badges">
+              {highlights.map(h => <span>{h}</span>)}
+            </footer>
+          </article>
+        </li>
+      ))
     }
   </ul>
 </Section>
 
 <style>
-  ul {
+  .projects-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-    margin-inline: -16px;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+    padding-inline: 0;
+    list-style: none;
   }
 
-  article {
-    border-radius: 8px;
-    border: 1px solid #f2f2f2;
-    gap: 16px;
+  .project-card {
+    background: #fafafa;
+    border: 1px solid #ececec;
+    border-radius: 14px;
+    padding: 1.2rem 1.4rem;
+    transition: 0.25s ease;
+  }
+
+  .project-card:hover {
+    background: #fff;
+    border-color: #dcdcdc;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+  }
+
+  .title-row {
     display: flex;
-    flex-direction: column;
-    padding: 16px;
-    height: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
   }
 
-  article header {
-    flex: 1;
+  .title-group {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
-  article h3 {
-    margin-bottom: 4px;
-  }
-
-  article a {
+  h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 600;
     color: #111;
+    display: flex;
+    align-items: center;
+    gap: 0.35rem;
   }
 
-  article a:hover {
+  h3 a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  h3 a:hover {
     text-decoration: underline;
   }
 
-  article p {
-    font-size: 0.75rem;
-    line-height: 1.2rem;
-    margin-bottom: 4px;
-  }
-
-  article h3 span {
+  .active-dot {
     color: rgb(0, 188, 47);
+    font-size: 1.2rem;
+    line-height: 0;
   }
 
-  footer {
+  .actions {
+    display: flex;
+    gap: 0.6rem;
+  }
+
+  .actions a {
+    color: #555;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    border-radius: 6px;
+    transition: 0.2s ease;
+  }
+
+  .actions a:hover {
+    background: #eee;
+  }
+
+  .description {
+    margin-top: 0.6rem;
+    color: #444;
+    font-size: 0.88rem;
+    line-height: 1.35rem;
+  }
+
+  .badges {
     display: flex;
     flex-wrap: wrap;
-    gap: 4px;
-    font-size: 0.6rem;
+    gap: 0.4rem;
+    margin-top: 0.8rem;
   }
 
-  footer span {
-    border-radius: 6px;
+  .badges span {
     background: #eee;
     color: #444;
-    font-size: 0.6rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    font-size: 0.7rem;
+    font-weight: 600;
   }
 
-  .github-code-link {
-    margin-left: 5px;
-  }
-
-  @media (width <= 700px) {
-    ul {
-      margin-inline: 0px;
-    }
-
-    article {
-      border: none;
-      box-shadow: 0 1px 1px #f2f2f2;
-      padding: 0 0 16px 0;
+  @media (max-width: 700px) {
+    .project-card {
+      padding: 1rem;
     }
   }
 </style>

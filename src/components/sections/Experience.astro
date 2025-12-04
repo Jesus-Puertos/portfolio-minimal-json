@@ -1,65 +1,139 @@
 ---
 import Section from "@/components/Section.astro";
+import { Briefcase } from "@lucide/astro";
 
 import { work } from "@cv";
 ---
 
 <Section title="Experiencia profesional">
-  <ul>
+  <ul class="experience-list">
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, highlights }) => {
-          const startYear = new Date(startDate).getFullYear();
-          const endYear =
-            endDate !== null ? new Date(endDate).getFullYear() : "Present";
-          const years = `${startYear} - ${endYear}`;
-          return (
-            <li>
-              <article>
-                <header>
+      work.map(({ name, startDate, endDate, position, summary, highlights }) => {
+        const startYear = new Date(startDate).getFullYear();
+        const endYear = endDate ? new Date(endDate).getFullYear() : "Presente";
+        const years = `${startYear} - ${endYear}`;
+
+        return (
+          <li class="experience-card">
+            <article>
+              <header class="header">
+                <div class="left">
+                  <Briefcase size="20" color="#444" />
                   <div>
                     <h3>{name}</h3>
-                    <p>{position}</p>
+                    <p class="position">{position}</p>
                   </div>
-                  <time>{years}</time>
-                </header>
-                <footer>
-                  <p>{summary}</p>
-                </footer>
-              </article>
-            </li>
-          );
-        }
-      )
+                </div>
+                <time class="years">{years}</time>
+              </header>
+
+              <footer>
+                <p class="summary">{summary}</p>
+
+                {highlights && (
+                  <ul class="highlights">
+                    {highlights.map((h) => (
+                      <li>{h}</li>
+                    ))}
+                  </ul>
+                )}
+              </footer>
+            </article>
+          </li>
+        );
+      })
     }
   </ul>
 </Section>
 
 <style>
-  ul {
+  .experience-list {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 1.6rem;
+    padding: 0;
+    list-style: none;
   }
 
-  article h3 {
-    font-weight: 500;
-    color: #111;
-  }
-  article h4 {
-    font-weight: 400;
-    color: #222;
+  .experience-card {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    padding: 1.4rem 1.6rem;
+    transition: 0.25s ease;
   }
 
-  header {
+  .experience-card:hover {
+    background: #fff;
+    border-color: #dcdcdc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: 0.8rem;
   }
 
-  time {
-    font-size: 0.85rem;
-    color: #555;
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  h3 {
+    font-size: 1.05rem;
+    margin: 0;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .position {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
+    font-weight: 500;
+  }
+
+  .years {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: 600;
+  }
+
+  .summary {
+    margin: 0 0 0.8rem 0;
+    line-height: 1.45;
+    color: #333;
+  }
+
+  /* Bullet points (solo si highlights existe) */
+  .highlights {
+    list-style: disc;
+    margin: 0.4rem 0 0 1.2rem;
+    padding: 0;
+    color: #444;
+    font-size: 0.9rem;
+    line-height: 1.35;
+  }
+
+  .highlights li {
+    margin-bottom: 0.3rem;
+  }
+
+  @media (max-width: 700px) {
+    .experience-card {
+      padding: 1rem 1.2rem;
+    }
+
+    .left {
+      gap: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
+    }
   }
 </style>

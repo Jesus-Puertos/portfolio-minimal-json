@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Jes\u00fas Alberto Rodr\u00edguez Puertos",
-    "label": "Desarrollador Web FullStack Jr.",
-    "image": "/me.png",
-    "email": "226w0496@zongolica.tecnm.mx",
+    "label": "Desarrollador Web Jr.",
+    "image": "/me.jpg",
+    "email": "jesuspuertos.engineer@gmail.com",
     "phone": "+52 272 266-2474",
     "url": "https://jesus-puertosdev.netlify.app/",
-    "summary": "Desarrollador Web FullStack Jr. con experiencia en tecnologías como React, Astro y Tailwind CSS. Ganador del primer lugar en HackaTECNM 2024 a nivel regional y delegado municipal en Movimiento Ciudadano. Apasionado por crear soluciones tecnológicas prácticas que combinan diseño innovador y funcionalidad.",
+    "summary": "Desarrollador Web FullStack Jr. con experiencia en proyectos de alto impacto, incluyendo hackathones nacionales y soluciones empresariales. Especializado en React, Astro, Tailwind y Node.js. Reconocido con el tercer lugar en HackaTECNM 2025 a nivel nacional y primer lugar en 2024 a nivel regional. Capaz de combinar desarrollo, documentación técnica y liderazgo para crear plataformas eficientes y escalables.",
     "location": {
       "address": "",
       "postalCode": "95060",
@@ -27,9 +27,32 @@
       }
     ]
   },
-  "work": [
+  "work": [{
+  "name": "Logística Embotelladora del Sur S.A. de C.V. (Heineken CEDIS Tlilapan)",
+  "position": "Asistente de Logística",
+  "startDate": "2025-06-01",
+  "endDate": null,
+  "summary": "Apoyé en procesos de logística, control de entregas, auditoría de inventarios y organización de rutas de reparto, desarrollando habilidades de trabajo bajo presión y análisis operativo."
+}
+,
+   {
+  "name": "Nexus - Digitalización de Polos de Desarrollo Económico",
+  "position": "Documentador Técnico y Coordinador de Equipo",
+  "url": "https://nexus-umber-eta.vercel.app/",
+  "startDate": "2025-11-24",
+  "endDate": "2025-11-28",
+  "summary": "Participé en la construcción del proyecto Nexus como responsable de la memoria técnica, la estructuración del problema, el diseño conceptual de la solución y la coordinación general del equipo. Mi labor se centró en traducir necesidades reales de los Polos de Desarrollo Económico en una propuesta tecnológica clara, sólida y viable.",
+  "highlights": [
+    "Redacción completa de la memoria técnica del proyecto, incluyendo planteamiento del problema, análisis de necesidades, arquitectura conceptual y justificación de la solución.",
+    "Definición clara del modelo de negocio, nodos del sistema, flujo de usuarios y alcances del proyecto para garantizar coherencia técnica y estratégica.",
+    "Guía y acompañamiento al equipo de desarrollo para mantener alineación entre la documentación, la visión del proyecto y la implementación técnica.",
+    "Generación de ideas clave para estructurar los módulos principales de Nexus: marketplace, ERP simplificado, logística y geolocalización.",
+    "Organización del trabajo en equipo, toma de decisiones y apoyo en la presentación del proyecto durante HackaTECNM 2025.",
+    "Comunicación efectiva con el equipo multidisciplinario para resolver dudas, clarificar requerimientos y mantener el enfoque en la problemática nacional."
+  ]
+},
     {
-      "name": "InnovaTECNM 2024",
+      "name": "HackaTECNM 2024",
       "position": "Desarrollador AR",
       "url": "https://volvoar.dev",
       "startDate": "2024-11-18",
@@ -73,55 +96,41 @@
       "courses": ["Mantenimiento de hardware", "Programaci\u00f3n b\u00e1sica"]
     }
   ],
-  "awards": [],
+  "awards": [
+  {
+    "title": "Tercer lugar nacional en HackaTECNM 2025",
+    "year": 2025,
+    "description": "Reconocimiento obtenido con el proyecto Nexus, destacando por innovación, documentación técnica y aplicabilidad nacional."
+  },
+  {
+    "title": "Primer lugar regional en HackaTECNM 2024",
+    "year": 2024,
+    "description": "Premio otorgado al proyecto BeelTraveler por su impacto en el sector turístico regional."
+  },
+  {
+    "title": "Presentación nacional ante Volvo Group",
+    "year": 2024,
+    "description": "Exposición de un sistema AR para manipulación 3D, desarrollado en la etapa nacional de InnovaTECNM."
+  }
+]
+,
   "certificates": [],
   "publications": [],
-  "skills": [
-    {
-      "name": "HTML",
-      "level": "Avanzado"
-    },
-    {
-      "name": "CSS",
-      "level": "Avanzado"
-    },
-    {
-      "name": "JavaScript",
-      "level": "Avanzado"
-    },
-    {
-      "name": "TypeScript",
-      "level": "Intermedio"
-    },
-    {
-      "name": "React",
-      "level": "Avanzado"
-    },
-    {
-      "name": "Astro",
-      "level": "Avanzado"
-    },
-    {
-      "name": "Node.js",
-      "level": "Intermedio"
-    },
-    {
-      "name": "Tailwind CSS",
-      "level": "Avanzado"
-    },
-    {
-      "name": "MySQL",
-      "level": "Intermedio"
-    },
-    {
-      "name": "Git",
-      "level": "Avanzado"
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado"
-    }
-  ],
+ "skills": [
+  { "name": "HTML", "category": "Frontend" },
+  { "name": "CSS", "category": "Frontend" },
+  { "name": "JavaScript", "category": "Frontend" },
+  { "name": "TypeScript", "category": "Frontend" },
+  { "name": "React", "category": "Frontend" },
+  { "name": "Astro", "category": "Frontend" },
+
+  { "name": "Node.js", "category": "Backend" },
+  { "name": "MySQL", "category": "Backend" },
+
+  { "name": "Git", "category": "Tools" },
+  { "name": "GitHub", "category": "Tools" }
+]
+,
   "languages": [
     {
       "language": "Espa\u00f1ol",

@@ -1,37 +1,40 @@
 ---
 import Section from "../Section.astro";
-
 import { education } from "@cv";
+import { GraduationCap } from "@lucide/astro";
 ---
 
 <Section title="Educación">
-  <ul>
+  <ul class="education-list">
     {
-      education.map(({ institution, startDate, endDate,description ,area, courses }) => {
+      education.map(({ institution, startDate, endDate, description, area, courses }) => {
         const startYear = new Date(startDate).getFullYear();
-        const endYear =
-          endDate != null ? new Date(endDate).getFullYear() : "Presente";
+        const endYear = endDate ? new Date(endDate).getFullYear() : "Presente";
         const years = `${startYear} - ${endYear}`;
 
         return (
-          <li>
+          <li class="education-card">
             <article>
-              <header>
-                <div>
-                  <h3>{institution}</h3>
+              <header class="header">
+                <div class="left">
+                  <GraduationCap size="20" color="#444" />
+                  <div>
+                    <h3>{institution}</h3>
+                    <p class="area">{area}</p>
+                  </div>
                 </div>
-
-                <time>{years}</time>
+                <time class="years">{years}</time>
               </header>
-              <p>
-                {description}
-              </p>
-              <footer>
-                <p>{area}</p>
-                {courses.map((courses) => {
-                  return <span>{courses}</span>;
-                })}
-              </footer>
+
+              <p class="description">{description}</p>
+
+              {courses && (
+                <footer class="courses">
+                  {courses.map((course) => (
+                    <span>{course}</span>
+                  ))}
+                </footer>
+              )}
             </article>
           </li>
         );
@@ -41,50 +44,96 @@ import { education } from "@cv";
 </Section>
 
 <style>
-  ul {
+  .education-list {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 1.6rem;
+    padding: 0;
+    list-style: none;
   }
 
-  article h3 {
-    font-weight: 500;
-    color: #111;
+  .education-card {
+    background: #fafafa;
+    border: 1px solid #e5e5e5;
+    border-radius: 14px;
+    padding: 1.4rem 1.6rem;
+    transition: 0.25s ease;
   }
 
-  header {
+  .education-card:hover {
+    background: #fff;
+    border-color: #dcdcdc;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  }
+
+  .header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 4px;
+    margin-bottom: 0.8rem;
   }
 
-  time {
-    color: #555;
-    font-size: 0.85rem;
-    min-width: 102px;
+  .left {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
   }
 
-  footer span {
-    border-radius: 6px;
-    background-color: #eee;
-    color: #444;
-    font-size: 0.6rem;
+  h3 {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 600;
+    color: #111;
+  }
+
+  .area {
+    margin: 0;
+    color: #666;
+    font-size: 0.9rem;
     font-weight: 500;
-    padding: 0.2rem 0.6rem;
-    margin-right: 0.5rem;
   }
 
-  footer p {
-    margin-top: 0.5rem;
-    font-weight: bolder;
+  .years {
+    font-size: 0.9rem;
+    color: #444;
+    font-weight: 600;
+    min-width: 100px;
+    text-align: right;
   }
 
-  @media (width <= 700px) {
-    time {
-      text-align: right;
+  .description {
+    margin: 0 0 0.8rem 0;
+    line-height: 1.45;
+    color: #333;
+  }
+
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+
+  .courses span {
+    padding: 0.25rem 0.6rem;
+    background: #eee;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #444;
+  }
+
+  @media (max-width: 700px) {
+    .education-card {
+      padding: 1rem 1.2rem;
+    }
+
+    .left {
+      gap: 0.5rem;
+    }
+
+    h3 {
+      font-size: 1rem;
     }
   }
-
-  
 </style>
