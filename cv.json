@@ -1,12 +1,12 @@
 {
   "basics": {
-    "name": "Jes\u00fas Alberto Rodr\u00edguez Puertos",
-    "label": "Desarrollador Web Jr.",
+    "name": "Jesús Alberto Rodríguez Puertos",
+    "label": "Full Stack Developer | React, Astro, TypeScript",
     "image": "/me.jpg",
     "email": "jesuspuertos.engineer@gmail.com",
     "phone": "+52 272 266-2474",
     "url": "https://jesus-puertosdev.netlify.app/",
-    "summary": "Desarrollador Web FullStack Jr. con experiencia en proyectos de alto impacto, incluyendo hackathones nacionales y soluciones empresariales. Especializado en React, Astro, Tailwind y Node.js. Reconocido con el tercer lugar en HackaTECNM 2025 a nivel nacional y primer lugar en 2024 a nivel regional. Capaz de combinar desarrollo, documentación técnica y liderazgo para crear plataformas eficientes y escalables.",
+    "summary": "Full Stack Developer con enfoque en frontend y experiencia en el desarrollo de plataformas web en producción para turismo, portales institucionales y sistemas de gestión pública. Especializado en React, Astro, TypeScript y Tailwind CSS, con enfoque en rendimiento, escalabilidad y experiencia de usuario.\n\nHe participado en proyectos a nivel nacional como HackaTECNM (1er lugar regional 2024 y 3er lugar nacional 2025), desarrollando soluciones completas desde arquitectura hasta despliegue.\n\nExperiencia trabajando bajo presión, construyendo interfaces modernas para entornos de alto tráfico y utilizando herramientas de inteligencia artificial para optimizar desarrollo, debugging, documentación técnica y análisis de información.",
     "location": {
       "address": "",
       "postalCode": "95060",
@@ -17,7 +17,7 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "Jes\u00fas Rodr\u00edguez",
+        "username": "Jesús Rodríguez",
         "url": "https://www.linkedin.com/in/jesús-puertos-mx/"
       },
       {
@@ -27,140 +27,193 @@
       }
     ]
   },
-  "work": [{
-  "name": "Logística Embotelladora del Sur S.A. de C.V. (Heineken CEDIS Tlilapan)",
-  "position": "Asistente de Logística",
-  "startDate": "2025-06-01",
-  "endDate": null,
-  "summary": "Apoyé en procesos de logística, control de entregas, auditoría de inventarios y organización de rutas de reparto, desarrollando habilidades de trabajo bajo presión y análisis operativo."
-}
-,
-   {
-  "name": "Nexus - Digitalización de Polos de Desarrollo Económico",
-  "position": "Documentador Técnico y Coordinador de Equipo",
-  "url": "https://nexus-umber-eta.vercel.app/",
-  "startDate": "2025-11-24",
-  "endDate": "2025-11-28",
-  "summary": "Participé en la construcción del proyecto Nexus como responsable de la memoria técnica, la estructuración del problema, el diseño conceptual de la solución y la coordinación general del equipo. Mi labor se centró en traducir necesidades reales de los Polos de Desarrollo Económico en una propuesta tecnológica clara, sólida y viable.",
-  "highlights": [
-    "Redacción completa de la memoria técnica del proyecto, incluyendo planteamiento del problema, análisis de necesidades, arquitectura conceptual y justificación de la solución.",
-    "Definición clara del modelo de negocio, nodos del sistema, flujo de usuarios y alcances del proyecto para garantizar coherencia técnica y estratégica.",
-    "Guía y acompañamiento al equipo de desarrollo para mantener alineación entre la documentación, la visión del proyecto y la implementación técnica.",
-    "Generación de ideas clave para estructurar los módulos principales de Nexus: marketplace, ERP simplificado, logística y geolocalización.",
-    "Organización del trabajo en equipo, toma de decisiones y apoyo en la presentación del proyecto durante HackaTECNM 2025.",
-    "Comunicación efectiva con el equipo multidisciplinario para resolver dudas, clarificar requerimientos y mantener el enfoque en la problemática nacional."
-  ]
-},
+  "work": [
     {
-      "name": "HackaTECNM 2024",
-      "position": "Desarrollador AR",
+      "name": "H. Ayuntamiento de Zongolica",
+      "position": "Desarrollador Web / Transformación Digital",
+      "url": "https://zongolica.gob.mx/",
+      "startDate": "2026-01-02",
+      "endDate": null,
+      "summary": "Desarrollo de plataformas digitales enfocadas en turismo, información institucional, transparencia y experiencias interactivas para ciudadanía y visitantes.",
+      "highlights": [
+        "Desarrollo del portal institucional del H. Ayuntamiento de Zongolica",
+        "Desarrollo del portal turístico de Zongolica con rutas dinámicas, atractivos, experiencias, eventos y planificación de visita",
+        "Implementación de funciones como tickets digitales, rutas personalizadas y experiencias interactivas",
+        "Participación en el desarrollo y mejora del portal de transparencia municipal enfocado en acceso a información pública",
+        "Optimización de experiencia de usuario para dispositivos móviles y entornos de alto tráfico",
+        "Despliegue y gestión de aplicaciones utilizando Vercel, Cloudflare y flujos modernos de desarrollo web",
+        "Uso de herramientas de IA (GPT, Claude, Gemini, NotebookLM) para acelerar desarrollo, debugging, documentación técnica y análisis de contenido"
+      ]
+    },
+    {
+      "name": "Logística Embotelladora del Sur S.A. de C.V. (Heineken CEDIS Tlilapan)",
+      "position": "Asistente de Logística",
+      "startDate": "2025-06-01",
+      "endDate": "2025-12-22",
+      "summary": "Participación en procesos logísticos y análisis operativo en entorno de alta demanda.",
+      "highlights": [
+        "Optimización de rutas de entrega",
+        "Control y auditoría de inventarios",
+        "Análisis de datos para toma de decisiones",
+        "Trabajo bajo presión en operaciones en tiempo real"
+      ]
+    },
+    {
+      "name": "Nexus - HackaTECNM 2025",
+      "position": "Technical Lead & Documentador",
+      "url": "https://nexus-umber-eta.vercel.app/",
+      "startDate": "2025-11-24",
+      "endDate": "2025-11-28",
+      "summary": "Coordinación técnica y estructuración de solución digital para polos de desarrollo económico.",
+      "highlights": [
+        "Diseño de arquitectura del sistema",
+        "Documentación técnica completa",
+        "Coordinación de equipo",
+        "Definición conceptual de módulos clave del sistema",
+        "Tercer lugar nacional en HackaTECNM 2025"
+      ]
+    },
+    {
+      "name": "HackaTECNM 2024 - Volvo",
+      "position": "AR Developer",
       "url": "https://volvoar.dev",
       "startDate": "2024-11-18",
       "endDate": "2024-11-22",
-      "summary": "Participé en el desarrollo de una aplicación innovadora de realidad aumentada para manipular modelos 3D en un entorno interactivo, diseñada específicamente para satisfacer las necesidades de Volvo Group S.A de C.V. Este proyecto destacó por su enfoque en la experiencia del usuario y la integración de tecnologías avanzadas de AR.",
+      "summary": "Desarrollo de aplicación de realidad aumentada para manipulación de modelos 3D.",
       "highlights": [
-        "Diseño e implementación de un sistema de manipulación 3D que permite la visualización, rotación y expansión de modelos en tiempo real.",
-        "Desarrollo de herramientas para la medición precisa de distancias y dimensiones dentro de entornos inmersivos.",
-        "Colaboración efectiva con un equipo multidisciplinario de desarrolladores, diseñadores y representantes de la industria automotriz.",
-        "Optimización del rendimiento de la aplicación para garantizar una experiencia fluida y sin interrupciones en dispositivos modernos.",
-        "Presentación del proyecto en la fase nacional de InnovaTECNM 2024, destacando por su creatividad y aplicabilidad en el sector automotriz.",
-        "Resolución de problemas técnicos complejos relacionados con la interacción entre modelos 3D y el entorno AR."
+        "Interacción 3D en tiempo real",
+        "Herramientas de medición en entorno AR",
+        "Optimización de rendimiento",
+        "Participación en etapa nacional"
       ]
     }
   ],
-  "volunteer": [],
   "education": [
     {
-      "institution": "Tecnol\u00f3gico Nacional de M\u00e9xico, Campus Zongolica",
+      "institution": "Tecnológico Nacional de México, Campus Zongolica",
       "url": "http://www.tecnm.mx/",
-      "area": "Ingenier\u00eda en Sistemas Computacionales",
-      "description": "Estudiante de Ingeniería en Sistemas Computacionales. He desarrollado soluciones como una plataforma integral para actividades complementarias y he participado en competencias tecnológicas, obteniendo reconocimientos destacados como el primer lugar en HackaTECNM 2024.",
+      "area": "Ingeniería en Sistemas Computacionales",
       "studyType": "Bachelor",
-      "startDate": "2020-08-01",
+      "startDate": "2022-08-01",
       "endDate": null,
       "score": "9.3",
       "courses": [
         "Desarrollo Web con React",
-        "Metodolog\u00edas \u00c1giles (SCRUM)"
+        "Metodologías Ágiles (SCRUM)"
       ]
     },
     {
-      "institution": "Centro Bachillerato Tecnol\u00f3gico Agropecuario No. 280",
+      "institution": "Centro Bachillerato Tecnológico Agropecuario No. 280",
       "url": "http://cbta280.edu.mx/",
-      "area": "T\u00e9cnico en Ofim\u00e1tica",
-      "description": "Durante mi estancia en el Centro Bachillerato Tecnológico Agropecuario, adquirí conocimientos técnicos en ofimática y mantenimiento de hardware.",
+      "area": "Técnico en Ofimática",
       "studyType": "High School",
       "startDate": "2016-08-01",
       "endDate": "2019-06-01",
-      "score": "9.0",
-      "courses": ["Mantenimiento de hardware", "Programaci\u00f3n b\u00e1sica"]
+      "score": "9.0"
     }
   ],
   "awards": [
-  {
-    "title": "Tercer lugar nacional en HackaTECNM 2025",
-    "year": 2025,
-    "description": "Reconocimiento obtenido con el proyecto Nexus, destacando por innovación, documentación técnica y aplicabilidad nacional."
-  },
-  {
-    "title": "Primer lugar regional en HackaTECNM 2024",
-    "year": 2024,
-    "description": "Premio otorgado al proyecto BeelTraveler por su impacto en el sector turístico regional."
-  },
-  {
-    "title": "Presentación nacional ante Volvo Group",
-    "year": 2024,
-    "description": "Exposición de un sistema AR para manipulación 3D, desarrollado en la etapa nacional de InnovaTECNM."
-  }
-]
-,
-  "certificates": [],
-  "publications": [],
- "skills": [
-  { "name": "HTML", "category": "Frontend" },
-  { "name": "CSS", "category": "Frontend" },
-  { "name": "JavaScript", "category": "Frontend" },
-  { "name": "TypeScript", "category": "Frontend" },
-  { "name": "React", "category": "Frontend" },
-  { "name": "Astro", "category": "Frontend" },
+    {
+      "title": "Tercer lugar nacional en HackaTECNM 2025",
+      "year": 2025,
+      "description": "Reconocimiento obtenido con el proyecto Nexus."
+    },
+    {
+      "title": "Primer lugar regional en HackaTECNM 2024",
+      "year": 2024,
+      "description": "Premio obtenido por proyecto orientado al sector turístico."
+    },
+    {
+      "title": "Participación nacional en InnovaTECNM",
+      "year": 2024,
+      "description": "Presentación de solución tecnológica en etapa nacional."
+    }
+  ],
+  "skills": [
+    { "name": "HTML", "category": "Frontend" },
+    { "name": "CSS", "category": "Frontend" },
+    { "name": "JavaScript", "category": "Frontend" },
+    { "name": "TypeScript", "category": "Frontend" },
+    { "name": "React", "category": "Frontend" },
+    { "name": "Astro", "category": "Frontend" },
+    { "name": "Tailwind CSS", "category": "Frontend" },
+    { "name": "Responsive Design", "category": "Frontend" },
+    { "name": "UX/UI", "category": "Frontend" },
+    { "name": "Performance Optimization", "category": "Frontend" },
 
-  { "name": "Node.js", "category": "Backend" },
-  { "name": "MySQL", "category": "Backend" },
+    { "name": "Node.js", "category": "Backend" },
+    { "name": "MySQL", "category": "Backend" },
+    { "name": "REST APIs", "category": "Backend" },
 
-  { "name": "Git", "category": "Tools" },
-  { "name": "GitHub", "category": "Tools" }
-]
-,
+    { "name": "Git", "category": "Tools" },
+    { "name": "GitHub", "category": "Tools" },
+    { "name": "Vercel", "category": "Tools" },
+    { "name": "Cloudflare", "category": "Tools" },
+    { "name": "AI-assisted Development (GPT, Claude, Gemini, NotebookLM)", "category": "Tools" },
+    { "name": "Prompt Engineering", "category": "Tools" }
+  ],
   "languages": [
     {
-      "language": "Espa\u00f1ol",
+      "language": "Español",
       "fluency": "Nativo"
     },
     {
-      "language": "Ingl\u00e9s",
-      "fluency": "Intermedio Avanzado"
+      "language": "Inglés",
+      "fluency": "B1–B2 (Technical Reading & Documentation)"
     }
   ],
-  "interests": [],
-  "references": [],
   "projects": [
+    {
+      "name": "Portal Turístico Zongolica",
+      "isActive": true,
+      "description": "Plataforma web turística para el H. Ayuntamiento de Zongolica con atractivos, experiencias, eventos, rutas y herramientas de planificación para visitantes.",
+      "highlights": [
+        "Rutas personalizadas y planificación de visita",
+        "Tickets digitales con QR",
+        "Catálogo de atractivos y experiencias",
+        "Optimización móvil y experiencia interactiva"
+      ],
+      "url": "https://zongolica.gob.mx/turismo"
+    },
+    {
+      "name": "Portal Institucional del H. Ayuntamiento de Zongolica",
+      "isActive": true,
+      "description": "Portal oficial del ayuntamiento para acceso a servicios municipales, información institucional, directorio, descargas y transparencia.",
+      "highlights": [
+        "Sitio oficial institucional",
+        "Acceso a servicios y transparencia",
+        "Arquitectura web orientada a información pública"
+      ],
+      "url": "https://zongolica.gob.mx/"
+    },
+    {
+      "name": "Portal de Transparencia de Zongolica",
+      "isActive": true,
+      "description": "Portal de transparencia y acceso a la información pública municipal con base en Portal Modelo de Transparencia y mejoras desde la Unidad de Sistemas.",
+      "highlights": [
+        "Enfoque en acceso a información pública",
+        "Adaptación y mejora de portal institucional",
+        "Soporte a transparencia municipal"
+      ],
+      "url": "https://transparencia.zongolica.gob.mx/turismo"
+    },
     {
       "name": "BeelTraveler",
       "isActive": true,
-      "description": "Plataforma digital para conectar agencias de turismo con clientes y gu\u00edas locales, promoviendo la econom\u00eda regional.",
+      "description": "Plataforma digital para conectar agencias de turismo con clientes y guías locales.",
       "highlights": [
-        "Dise\u00f1ada con Astro, React y MySQL.",
-        "Ganadora del primer lugar en HackaTECNM 2024."
+        "Desarrollada con Astro, React y MySQL",
+        "Primer lugar en HackaTECNM 2024"
       ],
       "url": "https://beeltraveler-repo-tecnm.vercel.app/"
     },
     {
       "name": "Sistema de Gestión de Complementarias",
       "isActive": true,
-      "description": "Plataforma integral para el registro y consulta de actividades complementarias de los estudiantes, incluyendo horarios, documentación, y progreso académico.",
+      "description": "Plataforma para gestión de actividades académicas.",
       "highlights": [
-        "Implementó medidas avanzadas de seguridad en formularios.",
-        "Facilitó la consulta y gestión de horarios y cargas académicas en tiempo real."
+        "Gestión de horarios y documentación",
+        "Seguridad en formularios"
       ],
       "github": "https://github.com/Jesus-Puertos/complementarias-proyecto.git"
     }
